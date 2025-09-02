@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-@Author: Yue Wang
-@Contact: yuewangx@mit.edu
-@File: main_cls.py
-@Time: 2018/10/13 10:39 PM
-
-Modified by 
-@Author: An Tao
-@Contact: ta19@mails.tsinghua.edu.cn
-@Time: 2019/12/30 9:32 PM
-"""
-
-
 from __future__ import print_function
 import os
 import argparse

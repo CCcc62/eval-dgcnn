@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-@Author: Ziyi Wu, Yingqi Wang
-@Contact: dazitu616@gmail.com, yingqi-w19@mails.tsinghua.edu.cn
-@File: main_semseg_scannet.py
-@Time: 2022/7/30 7:49 PM
-"""
-
-
 import argparse
 import os
 import random

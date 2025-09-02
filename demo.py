@@ -2943,10 +2943,7 @@ if __name__ == "__main__":
     logger.add(os.path.join(outputDir, 'log.txt'))
 
     # 读取las文件
-    # lasFilePath = "F:/zxr/项目数据/24-1-11/成渝线/成渝线_上行_普通线路_2019-11-09_7-48-19_0.las"
     lasFilePath = "E:/lcy/项目数据/大理/split_x_1624_2011.las"
-    # lasFilePath = 'E:/zxr/项目数据/道床/现场数据/盈/西安/宝成线_下行_普通线路_2022-03-05_15-28-23 - 1_0.las'
-    # lasFilePath = 'F:/zxr/项目数据/道床/现场数据/欠/沈阳/新通线_上行_普通线路_2019-03-09_23-36-5_0.las'
     # lasFilePath = 'test.las'
 
     # lasFile = las.read(lasFilePath)

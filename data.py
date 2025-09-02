@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-@Author: Yue Wang
-@Contact: yuewangx@mit.edu
-@File: data.py
-@Time: 2018/10/13 6:21 PM
-
-Modified by 
-@Author: An Tao, Pengliang Ji, Ziyi Wu
-@Contact: ta19@mails.tsinghua.edu.cn, jpl1723@buaa.edu.cn, dazitu616@gmail.com
-@Time: 2022/7/30 7:49 PM
-"""
-
-
 import os
 import sys
 import glob

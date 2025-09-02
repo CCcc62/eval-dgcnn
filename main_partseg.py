@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-@Author: An Tao, Pengliang Ji
-@Contact: ta19@mails.tsinghua.edu.cn, jpl1723@buaa.edu.cn
-@File: main_partseg.py
-@Time: 2021/7/20 7:49 PM
-"""
-
-
 from __future__ import print_function
 import os
 import argparse
