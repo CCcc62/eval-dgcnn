@@ -1,5 +1,5 @@
 ## 项目简介
-本项目基于DGCNN PyTorch(https://github.com/antao97/dgcnn.pytorch)实现，旨在解决铁路桥梁偏心距离自动化测量问题。主要贡献如下：
+本项目基于DGCNN PyTorch(https://github.com/antao97/dgcnn.pytorch) 实现，旨在解决铁路桥梁偏心距离自动化测量问题。主要贡献如下：
 1. 提出针对桥梁偏心距离测量的精确方法，解决传统方法效率低、误差大、成本高的问题。
 2. 针对语义混淆问题，结合铁路桥梁结构先验约束，从网络输入和结构两方面改进分割网络，提高分割精度。
 3. 提出标签纠正算法，结合桥梁结构先验，提高偏心距离计算精度。
@@ -44,27 +44,22 @@ pip install tqdm loguru opencv-python
 ## 快速开始
 1. **数据准备**  
     数据分割，将整段点云数据分割为合适的训练数据
-
-```bash    
-python cutLasfile.py
+```bash 
+python cutLasfile.py  
 ```  
-    去噪
-
+去噪  
 ```bash  
 python statisticalFiltering.py
 ```  
-    根据高程差编码为rgb，与xyz一起作为输入
-
+ 根据高程差编码为rgb，与xyz一起作为输入
 ```bash  
 python createLasfile.py
 ```  
-    数据清洗
-
+ 数据清洗
 ```bash  
 python clear_nan.py
 ```  
-    转换LAS文件为训练格式，训练以及测试数据放在data文件夹下，或者自己设置数据路径
-
+ 转换LAS文件为训练格式，训练以及测试数据放在data文件夹下，或者自己设置数据路径
 ```bash  
 python txttoh5.py
 ```  
@@ -86,4 +81,5 @@ python eccentricDistanceCal.py
 ```  
 
 ## 联系方式  
+
 如有任何文件或建议，请通过Issue或者邮件联系
