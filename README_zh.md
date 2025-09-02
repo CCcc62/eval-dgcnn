@@ -39,46 +39,51 @@ pip install numpy scipy scikit-learn
 pip install h5py glob2 plyfile
 pip install laspy open3d matplotlib
 pip install tqdm loguru opencv-python
-```
+```  
 
 ## 快速开始
-1. **数据准备**
+1. **数据准备**  
     数据分割，将整段点云数据分割为合适的训练数据
+
 ```bash    
 python cutLasfile.py
-```
+```  
     去噪
+
 ```bash  
 python statisticalFiltering.py
-```
+```  
     根据高程差编码为rgb，与xyz一起作为输入
+
 ```bash  
 python createLasfile.py
-```
+```  
     数据清洗
+
 ```bash  
 python clear_nan.py
-```
+```  
     转换LAS文件为训练格式，训练以及测试数据放在data文件夹下，或者自己设置数据路径
+
 ```bash  
 python txttoh5.py
-```
+```  
 
-2. **模型训练**
+2. **模型训练**  
     参数可以在代码中设置或者在指令中指定，训练结果保存在outputs文件夹中
 ```bash 
 python main_seg.py
-```
+```  
 
-3. **模型测试**
+3. **模型测试**  
 ```bash 
 python main_seg.py --eval==True
-```
+```  
 
-4. **偏心距离计算**
+4. **偏心距离计算**    
 ```bash 
 python eccentricDistanceCal.py
-```
+```  
 
-## 联系方式
+## 联系方式  
 如有任何文件或建议，请通过Issue或者邮件联系
